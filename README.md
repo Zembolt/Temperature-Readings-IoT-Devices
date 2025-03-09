@@ -95,6 +95,14 @@ O fluxo de trabalho do projeto envolve:
 ---
 
 ## Capturas de Tela do Dashboard
-
+Grafico em colunas
 ![image](https://github.com/user-attachments/assets/e31298b0-3757-491d-b018-3ac62376891d)
+
+Grafico em Linha
+![image](https://github.com/user-attachments/assets/34b86a24-26b3-4aca-b56b-5287af9014fe)
+
+Grafico por Diperção
+![image](https://github.com/user-attachments/assets/b53cd58d-8d83-4775-9501-1048e633063a)
+
+
 
