@@ -15,7 +15,7 @@ O fluxo de trabalho do projeto envolve:
 ## Como Configurar o Ambiente
 
 ### Pré-requisitos:
-- Python 3.8+
+- Python 3.8
 - Docker
 - Conta no GitHub e Kaggle
 
@@ -62,37 +62,18 @@ O fluxo de trabalho do projeto envolve:
 
 ## Explicação das Views SQL
 
-### 1. `avg_temp_por_dispositivo`
-- **Descrição**: Esta view calcula a média de temperatura para cada dispositivo.
-- **Insight**: Permite identificar quais dispositivos estão reportando temperaturas consistentemente mais altas ou mais baixas.
+### 1. `avg_temp_por_Min_Max `
+- **Descrição**: Esta view calcula a média de temperatura.
+- **Insight**: Permite identificar quais dias estão reportando temperaturas consistentemente mais altas ou mais baixas.
     ```sql
-    CREATE VIEW avg_temp_por_dispositivo AS
-    SELECT device_id, AVG(temperature) as avg_temp
-    FROM temperature_readings
-    GROUP BY device_id;
-    ```
-
-### 2. `leituras_por_hora`
-- **Descrição**: Esta view mostra a contagem de leituras de temperatura agrupadas por hora.
-- **Insight**: Ajuda a identificar picos de atividade dos dispositivos ao longo do dia.
-    ```sql
-    CREATE VIEW leituras_por_hora AS
-    SELECT EXTRACT(HOUR FROM timestamp) AS hora, COUNT(*) AS contagem
-    FROM temperature_readings
-    GROUP BY hora;
-    ```
-
-### 3. `temp_max_min_por_dia`
-- **Descrição**: Esta view calcula as temperaturas máxima e mínima para cada dia.
-- **Insight**: Útil para monitorar variações extremas de temperatura ao longo do tempo.
-    ```sql
-    CREATE VIEW temp_max_min_por_dia AS
-    SELECT DATE(timestamp) as data, MAX(temperature) as temp_max, MIN(temperature) as temp_min
-    FROM temperature_readings
-    GROUP BY data;
-    ```
-
----
+   CREATE TABLE temperature_readings (
+    id TEXT PRIMARY KEY,
+    room_id TEXT NOT NULL,
+    noted_date TIMESTAMP NOT NULL,
+    temp INTEGER NOT NULL,
+    location TEXT CHECK (location IN ('In', 'Out'))
+);
+    
 
 ## Capturas de Tela do Dashboard
 Grafico em colunas
@@ -103,6 +84,22 @@ Grafico em Linha
 
 Grafico por Diperção
 ![image](https://github.com/user-attachments/assets/b53cd58d-8d83-4775-9501-1048e633063a)
+
+---
+Postgres Data base
+![image](https://github.com/user-attachments/assets/a8a7e88e-c18e-4462-aea5-41298fb4d8bc)
+
+![image](https://github.com/user-attachments/assets/d2668ecb-0fae-4848-8c3f-85b8f3ecfc03)
+
+![image](https://github.com/user-attachments/assets/a14982f0-3001-472b-a7ac-26c45e196844)
+
+SQL Editor
+![image](https://github.com/user-attachments/assets/cde64a73-ad01-4e17-8fed-e00e81d14919)
+
+----
+Capturas de Telas Docker 
+
+![image](https://github.com/user-attachments/assets/96abcd5a-6590-4d90-b66f-75d2989f0655)
 
 
 
