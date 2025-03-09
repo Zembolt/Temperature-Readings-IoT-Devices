@@ -97,12 +97,12 @@ O fluxo de trabalho do projeto envolve:
 ## Capturas de Tela do Dashboard
 
 ### 1. Média de Temperatura por Dispositivo
-![image](https://github.com/user-attachments/assets/354bc1e3-e7be-415f-a25d-6eb4a5c1e13a)
+![[image](https://github.com/user-attachments/assets/354bc1e3-e7be-415f-a25d-6eb4a5c1e13a)](https://special-adventure-pjpxwpv9pr9qh7jgr-8501.app.github.dev/media/d5b0147177ecc4ab359593ae6762b54af5abec357c7bf5d47c6964e7.png)
 
 
 ### 2. Leituras por Hora do Dia
-![image](https://github.com/user-attachments/assets/90cdb283-6f94-4884-baa7-9d3723bb5faf)
+![[image](https://github.com/user-attachments/assets/90cdb283-6f94-4884-baa7-9d3723bb5faf)](https://special-adventure-pjpxwpv9pr9qh7jgr-8501.app.github.dev/media/fc9132eb2c9a5bdd12e18ab82ddf036e7250459f463d9e85c6a1cd08.png)
 
 
 ### 3. Temperaturas Máximas e Mínimas por Dia
-![image](https://github.com/user-attachments/assets/34553a23-90a4-44b3-9dec-a32c91932baa)
+![[image](https://github.com/user-attachments/assets/34553a23-90a4-44b3-9dec-a32c91932baa)](https://special-adventure-pjpxwpv9pr9qh7jgr-8501.app.github.dev/media/772e0f7871fa81329cf1e81c9c27dabec7e50d4948c162ca2b5df537.png)
