@@ -96,13 +96,4 @@ O fluxo de trabalho do projeto envolve:
 
 ## Capturas de Tela do Dashboard
 
-### 1. Média de Temperatura por Dispositivo
-![[image](https://github.com/user-attachments/assets/354bc1e3-e7be-415f-a25d-6eb4a5c1e13a)
-
-
-### 2. Leituras por Hora do Dia
-![[image](https://github.com/user-attachments/assets/90cdb283-6f94-4884-baa7-9d3723bb5faf)
-
-
-### 3. Temperaturas Máximas e Mínimas por Dia
-![[image](https://github.com/user-attachments/assets/34553a23-90a4-44b3-9dec-a32c91932baa)
+https://special-adventure-pjpxwpv9pr9qh7jgr-8501.app.github.dev/media/772e0f7871fa81329cf1e81c9c27dabec7e50d4948c162ca2b5df537.png
