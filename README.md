@@ -1,6 +1,6 @@
 # Temperature-Readings-IoT-Devices
 estudos para analisar diferentes temperaturas ao dia
-# Pipeline_IOT
+# Pipeline - IOT
 
 ## Descrição do Projeto
 Este projeto implementa um pipeline de dados para processar e armazenar leituras de temperatura de dispositivos IoT em um banco de dados PostgreSQL, utilizando Docker. A solução também inclui um dashboard interativo criado com Streamlit, que visualiza insights como a média de temperatura por dispositivo, leituras por hora e temperaturas máximas e mínimas por dia.
