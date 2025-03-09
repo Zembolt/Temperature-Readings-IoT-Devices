@@ -96,4 +96,5 @@ O fluxo de trabalho do projeto envolve:
 
 ## Capturas de Tela do Dashboard
 
-https://special-adventure-pjpxwpv9pr9qh7jgr-8501.app.github.dev/media/772e0f7871fa81329cf1e81c9c27dabec7e50d4948c162ca2b5df537.png
+![image](https://github.com/user-attachments/assets/e31298b0-3757-491d-b018-3ac62376891d)
+
